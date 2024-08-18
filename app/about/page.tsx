@@ -1,11 +1,13 @@
 import Image from "next/image"
+import me_pic from "../../public/me_pic.jpg"
 
 export default function About() {
     return(
         <div className="flex flex-row flex-wrap justify-center items-center mt-8 mx-8">
             <div className="w-full h-full basis-1/5 flex justify-center">
                 <Image 
-                    src="/me_pic.jpg"
+                    // src="/public/me_pic.jpg"
+                    src={me_pic}
                     width={280}
                     height={800}
                     alt="Personal Portrait"
