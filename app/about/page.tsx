@@ -6,7 +6,6 @@ export default function About() {
         <div className="flex flex-row flex-wrap justify-center items-center mt-8 mx-8">
             <div className="w-full h-full basis-1/5 flex justify-center">
                 <Image 
-                    // src="/public/me_pic.jpg"
                     src={me_pic}
                     width={280}
                     height={800}
