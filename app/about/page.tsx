@@ -14,23 +14,31 @@ export default function About() {
             </div>
             <div className="w-full h-full basis-4/5 text-xl bg-gray-600/[0.7]">
                 <p>
-                    I am a Junior at the University of Michigan Ann Arbor. 
-                    I am majoring in Computer Science and minoring in Applied Statistics and Japanese. 
-                    I am looking for an internship in Software Engineering / Full Stack Development.
+                    I am a Senior at the University of Michigan Ann Arbor, and I&apos;m majoring in Computer Science and Minoring in Data Science.
                 </p>
                 <br />
                 <p>
-                    Two major classes I am taking at The University of Michigan Ann Arbor are EECS 445 (Intro to Machine Learning) and EECS 492 (Intro to Artificial Intelligence). 
-                    In Machine Learning, I am learning the fundamentals of machine learning and the math behind different types of models. 
-                    I am also using different models in projects to apply what I have learned. 
-                    In Artificial Intelligence, I am learning different types of AI models and I am using the AI models in projects using python to increase my understanding of them.
+                    Some notable classes I&apos;ve taken at the University of Michigan include:
+                    <ul className="ml-8 list-disc">
+                        <li>EECS 281 - Data Structures and Algorithms</li>
+                        <li>EECS 370 - Intro to Computer Architecture</li>
+                        <li>EECS 485 - Web Systems</li>
+                        <li>EECS 445 - Intro to Machine Learning</li>
+                        <li>EECS 492 - Intro to Artificial Intelligence</li>
+                        <li>EECS 442 - Computer Vision (Currently Taking)</li>
+                        <li>EECS 481 - Software Development (Currently Taking)</li>
+                    </ul>
                 </p>
                 <br />
                 <p>
-                    This past Winter Semester 2023, I took EECS 281 and EECS 370, and Japanese 126 at The University of Michigan Ann Arbor. 
-                    EECS 281 is Data Structures and Algorithms, EECS 370 is Computer Architecture. 
-                    EECS 281 and EECS 370 helped me prepare for demanding project deadlines because I had to balance 3-4 projects at a time that are due in around 2-3 weeks after the projects are released. 
-                    Having 2-4 projects assigned and due on the same day helped me learn how to manage my time and work hard in completing the projects on time and getting 100% on each project.
+                    This Fall 2024 Semester I am taking EECS 442 (Computer Vision) and EECS 481 (Software Development). I am going to be learning about
+                    different types of Neural Networks and best practices for Software Development for large scale projects, like different levels of environments
+                    for testing software before deploying to production and work flow for developing projects.
+                    <br />
+                    <br />
+                    I am also going to be working on my personal project where I am going to be developing several websites, such as a calorie tracker and a video game database.
+                    I am using Next.js to develop the front-end, FastAPI to develop the back-end, and PostgreSQL to host a relational database.
+                    I have had a long standing passion for exercising and video games, and with my knowledge, I am going to develop an environment that I will be able to put my passion on full display.
                 </p>
             </div>
         </div>

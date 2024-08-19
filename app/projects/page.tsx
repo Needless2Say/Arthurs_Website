@@ -5,30 +5,61 @@
 
 export default function Projects() {
     return(
-        <div className="flex flex-col justify-center mt-10 ml-80 mr-48">
+        <div className="flex flex-col justify-center mt-10 ml-80 mr-48 mb-20">
             <div className="flex flex-row justify-center items-center content-center ml-24 bg-gray-700/[0.60]">
                 <div className="text-6xl basis-1/3 text-center">
-                    <p>Gacha</p>
+                    <p>Krieger&apos;s</p>
                     <br />
-                    <p>Game</p>
+                    <p>Data</p>
                     <br />
-                    <p>Database</p>
+                    <p>Forge</p>
                 </div>
-                <div className="text-2xl basis-2/3">
+                <div className="text-xl basis-2/3">
+                    <p>
+                        Overview:
+                        <br />
+                        Full Stack Project that provides data to websites I or other developers create
+                    </p>
                     <ul className="list-disc ml-10">
-                        <li>Track game data from several gacha games</li>
-                        <li>Front-End includes the following:
+                        <li>Front End</li>
+                        <ul className="list-disc pl-10">
+                            <li>Websites that use data to display to users based on website usecase</li>
+                            <li>Examples</li>
+                            <ul className="list-disc pl-10">
+                                <li>Calorie Tracker</li>
+                                <li>Video Game Database</li>
+                            </ul>
+                            <li>Frameworks/Languages</li>
                             <ul className="list-disc pl-10">
                                 <li>Next.js</li>
+                                <li>React</li>
+                                <li>TypeScript</li>
                                 <li>Tailwind CSS</li>
-                                <li>TypeScript/JavaScript</li>
-                                <li>Python</li>
-                                <li>REST API</li>
-                                <li>JSON</li>
-                                <li>SQL</li>
+                                <li>HTML</li>
                             </ul>
-                        </li>
-                        <li>Back-End includes a SQL Database hosted on a server</li>
+                        </ul>
+                        <li>Back End</li>
+                        <ul className="list-disc pl-10">
+                            <li>Independent API that serves websites connect to API</li>
+                            <li>Examples</li>
+                            <ul className="list-disc pl-10">
+                                <li>Serves Calorie Tracker website with food data</li>
+                                <li>Serves Video Game Database website with video game related data</li>
+                            </ul>
+                            <li>Frameworks/Languages</li>
+                            <ul className="list-disc pl-10">
+                                <li>FastAPI</li>
+                                <li>SQLAlchemy</li>
+                                <li>SQLModel</li>
+                                <li>Pydantic</li>
+                                <li>Python</li>
+                            </ul>
+                        </ul>
+                        <li>Database</li>
+                        <ul className="list-disc pl-10">
+                            <li>1 database with 1 schema for each website containing many tables</li>
+                            <li>PostgreSQL Relational Database</li>
+                        </ul>
                     </ul>
                 </div>
             </div>
