@@ -8,7 +8,7 @@ export default function Projects() {
         <div className="flex flex-col justify-center mt-10 ml-80 mr-48 mb-20">
             <div className="flex flex-row justify-center items-center content-center ml-24 bg-gray-700/[0.60]">
                 <div className="text-6xl basis-1/3 text-center">
-                    <p>Krieger&apos;s</p>
+                    <p>Krieger</p>
                     <br />
                     <p>Data</p>
                     <br />
