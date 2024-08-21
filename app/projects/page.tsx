@@ -32,10 +32,6 @@ export default function Projects() {
                             <li>Frameworks/Languages</li>
                             <ul className="list-disc pl-10">
                                 <li>Next.js</li>
-                                <li>React</li>
-                                <li>TypeScript</li>
-                                <li>Tailwind CSS</li>
-                                <li>HTML</li>
                             </ul>
                         </ul>
                         <li>Back End</li>
@@ -49,10 +45,6 @@ export default function Projects() {
                             <li>Frameworks/Languages</li>
                             <ul className="list-disc pl-10">
                                 <li>FastAPI</li>
-                                <li>SQLAlchemy</li>
-                                <li>SQLModel</li>
-                                <li>Pydantic</li>
-                                <li>Python</li>
                             </ul>
                         </ul>
                         <li>Database</li>

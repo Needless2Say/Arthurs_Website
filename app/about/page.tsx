@@ -38,7 +38,7 @@ export default function About() {
                     <br />
                     I am also going to be working on my personal project where I am going to be developing several websites, such as a calorie tracker and a video game database.
                     I am using Next.js to develop the front-end, FastAPI to develop the back-end, and PostgreSQL to host a relational database.
-                    I have had a long standing passion for exercising and video games, and with my knowledge, I am going to develop an environment that I will be able to put my passion on full display.
+                    I have had a long standing interest for exercising and video games, and with my knowledge, I am developing an environment that I will be able to put my passion on full display.
                 </p>
             </div>
         </div>
