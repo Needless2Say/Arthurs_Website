@@ -1,24 +1,27 @@
-
+// Projects Page
 
 
 
 
 export default function Projects() {
     return(
-        <div className="flex flex-col justify-center mt-10 ml-80 mr-48 mb-20">
-            <div className="flex flex-row justify-center items-center content-center ml-24 bg-gray-700/[0.60]">
-                <div className="text-6xl basis-1/3 text-center">
-                    <p>Krieger</p>
-                    <br />
-                    <p>Data</p>
-                    <br />
-                    <p>Forge</p>
-                </div>
-                <div className="text-xl basis-2/3">
+        <div className="flex flex-col lg:flex-row justify-center my-8 mx-8 bg-gray-700/[0.60]">
+            <div className="flex flex-row lg:flex-col flex-wrap text-3xl md:text-4xl lg:text-6xl font-bold basis-1/3 text-center m-4 justify-center items-center">
+                <div>Krieger</div>
+                <div>&nbsp;</div>
+                <div>Data</div>
+                <div>&nbsp;</div>
+                <div>Forge</div>
+            </div>
+            <div className="flex text-xl lg:text-2xl basis-2/3 px-3 my-4 justify-center">
+                <div>
                     <p>
-                        Overview:
+                        Summary:
                         <br />
                         Full Stack Project that provides data to websites I or other developers create
+                        <br />
+                        <br />
+                        Overview:
                     </p>
                     <ul className="list-disc ml-10">
                         <li>Front End</li>
@@ -52,7 +55,7 @@ export default function Projects() {
                             <li>1 database with 1 schema for each website containing many tables</li>
                             <li>PostgreSQL Relational Database</li>
                         </ul>
-                    </ul>
+                    </ul> 
                 </div>
             </div>
         </div>

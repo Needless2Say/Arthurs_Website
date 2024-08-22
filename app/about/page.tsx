@@ -1,9 +1,10 @@
+// About Page
 import Image from "next/image"
 import me_pic from "../../public/me_pic.jpg"
 
 export default function About() {
     return(
-        <div className="flex flex-row flex-wrap justify-center items-center mt-8 mx-8">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-center mt-8 mx-8">
             <div className="w-full h-full basis-1/5 flex justify-center">
                 <Image 
                     src={me_pic}
@@ -12,23 +13,21 @@ export default function About() {
                     alt="Personal Portrait"
                 />
             </div>
-            <div className="w-full h-full basis-4/5 text-xl bg-gray-600/[0.7]">
+            <div className="w-full h-full basis-4/5 text-xl 2xl:text-2xl bg-gray-600/[0.7]">
                 <p>
                     I am a Senior at the University of Michigan Ann Arbor, and I&apos;m majoring in Computer Science and Minoring in Data Science.
                 </p>
                 <br />
-                <p>
-                    Some notable classes I&apos;ve taken at the University of Michigan include:
-                    <ul className="ml-8 list-disc">
-                        <li>EECS 281 - Data Structures and Algorithms</li>
-                        <li>EECS 370 - Intro to Computer Architecture</li>
-                        <li>EECS 485 - Web Systems</li>
-                        <li>EECS 445 - Intro to Machine Learning</li>
-                        <li>EECS 492 - Intro to Artificial Intelligence</li>
-                        <li>EECS 442 - Computer Vision (Currently Taking)</li>
-                        <li>EECS 481 - Software Development (Currently Taking)</li>
-                    </ul>
-                </p>
+                Some notable classes I&apos;ve taken at the University of Michigan include:
+                <ul className="ml-8 list-disc">
+                    <li>EECS 281 - Data Structures and Algorithms</li>
+                    <li>EECS 370 - Intro to Computer Architecture</li>
+                    <li>EECS 485 - Web Systems</li>
+                    <li>EECS 445 - Intro to Machine Learning</li>
+                    <li>EECS 492 - Intro to Artificial Intelligence</li>
+                    <li>EECS 442 - Computer Vision (Currently Taking)</li>
+                    <li>EECS 481 - Software Development (Currently Taking)</li>
+                </ul>
                 <br />
                 <p>
                     This Fall 2024 Semester I am taking EECS 442 (Computer Vision) and EECS 481 (Software Development). I am going to be learning about
