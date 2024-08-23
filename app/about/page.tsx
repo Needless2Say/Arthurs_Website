@@ -4,7 +4,7 @@ import me_pic from "../../public/me_pic.jpg"
 
 export default function About() {
     return(
-        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-center mt-8 mx-8">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-center my-8 mx-8">
             <div className="w-full h-full basis-1/5 flex justify-center">
                 <Image 
                     src={me_pic}
@@ -13,7 +13,7 @@ export default function About() {
                     alt="Personal Portrait"
                 />
             </div>
-            <div className="w-full h-full basis-4/5 text-xl 2xl:text-2xl bg-gray-600/[0.7]">
+            <div className="w-full h-full basis-4/5 text-xl 2xl:text-2xl bg-gray-600/[0.7] p-3">
                 <p>
                     I am a Senior at the University of Michigan Ann Arbor, and I&apos;m majoring in Computer Science and Minoring in Data Science.
                 </p>

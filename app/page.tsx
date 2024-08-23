@@ -6,7 +6,7 @@ import Navbar from './navbar'
 export default function Page() {
   return (
     <>
-      <div className="flex justify-center mt-16">
+      <div className="flex justify-center my-8">
         <div className="border-effect">
           <Image 
             src={Big_House}

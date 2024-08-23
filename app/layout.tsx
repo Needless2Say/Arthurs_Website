@@ -32,7 +32,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={inter.className}>
-        <div className="flex flex-row flex-wrap justify-center my-16 text-2xl sm:text-4xl">
+        <div className="flex flex-row flex-wrap justify-center my-16 font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl">
           <span className="py-2.5 px-4 hover:bg-slate-700/[.70]"><p className="transition-colors duration-500 rainbow-text">Arthur Krieger</p></span>
         </div>
         <Navbar />
