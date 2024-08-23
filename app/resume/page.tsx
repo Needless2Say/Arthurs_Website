@@ -8,6 +8,15 @@ export default function Resume() {
             <div className="2xl:basis-1/4"></div>
             <div className="2xl:basis-2/4 flex flex-col justify-start bg-gray-600/[0.7] mx-2 my-8 p-3">
                 <div className="pb-6 text-2xl font-bold">My Resume</div>
+                <div>
+                    <a
+                        href="Arthur_Krieger_Resume.pdf"
+                        download="Arthur_Krieger_Resume.pdf"
+                        className="inline-block mb-6 px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+                    >
+                        Download My Resume
+                    </a>
+                </div>
                 <div className="pb-2 text-xl font-bold">Objective</div>
                 <div className="pb-6">
                     Forward-thinking individual with refined interpersonal and multitasking skills.
