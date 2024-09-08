@@ -19,8 +19,8 @@ export default function Resume() {
                 </div>
                 <div className="pb-2 text-xl font-bold">Objective</div>
                 <div className="pb-6">
-                    Forward-thinking individual with refined interpersonal and multitasking skills.
-                    Interested in a software or Full Stack development internship to utilize my passion for high-tech computing technologies, to support the company&apos;s growth, and to gain more experience in applications of software and Full Stack development.
+                    Forward-thinking individual with strong interpersonal and multitasking skills, seeking a role in software development, data engineering, full stack development, or machine learning and artificial intelligence
+                    to leverage my passion for high-tech computing technologies to drive innovation and contribute to the company&apos;s growth while expanding my expertise in these areas.
                 </div>
                 <div className="pb-2 text-xl font-bold">Education</div>
                 <div className="pb-2 text-lg">University of Michigan College of Engineering - Ann Arbor, MI</div>
@@ -32,7 +32,7 @@ export default function Resume() {
                         <li>September 2022 - Present</li>
                     </ul>
                 </div>
-                <div className="pb-2 text-lg">Michigan State University College of Engineering– East Lansing, MI</div>
+                <div className="pb-2 text-lg">Michigan State University College of Engineering – East Lansing, MI</div>
                 <div className="pb-6">
                     <ul className="list-disc pl-8">
                         <li>Honors College</li>
@@ -49,7 +49,7 @@ export default function Resume() {
                         <li>June 3rd 2024 – August 2nd 2024</li>
                         <li>Part of a scrum team using Agile methodology following a full SDLC; responsible for creating dashboards for data operations</li>
                         <li>Delivered interactive dashboards that display data operations for data pipelines and data profiling metrics</li>
-                        <li>Wrote python scripts to connect to and query Snowflake for desired data for desired data pipeline metrics</li>
+                        <li>Wrote Confluence pages for Streamlit dashboards describing usage, set-up, architecture, and deployment steps</li>
                         <li>Deployed Streamlit dashboards in Snowflake environments</li>
                         <li>Wrote Confluence pages for Streamlit dashboards describing usage, set-up, architecture, and deployment steps</li>
                         <li>Demoed to Wealth Asset Management Research Analytics and Reporting Engineering team at end of internship</li>
@@ -87,9 +87,9 @@ export default function Resume() {
                 <div className="pb-6">
                     <ul className="list-disc pl-8">
                        <li>Front-End: Building websites, such as calorie tracker and video game database, using Next.JS</li>
-                       <li>Back-End: Building API using FastAPI to serve data to all websites that I build</li>
+                       <li>Back-End: Building API using FastAPI to serve data to all websites that I build and other users build or request</li>
                        <li>Database: Using PostrgreSQL database to serve and store data</li>
-                       <li>Technologies Used: HTML, Tailwind CSS, Typescript, React, Next.JS, FastAPI, Python, PostrgreSQL, SQL</li>
+                       <li>Technologies Used: HTML, Tailwind CSS, Typescript, React, Next.JS, FastAPI, PostrgreSQL, SQL, Python, Alembic</li>
                     </ul>
                 </div>
                 <div className="pb-2 text-xl font-bold">School Projects</div>
@@ -116,18 +116,11 @@ export default function Resume() {
                        <li>Microsoft Certified: Azure Fundamentals – August 2023</li>
                        <li>Academy Accreditation Databricks Lakehouse Fundamentals – August 2023</li>
                        <li>Proficient – C/C++, Python, SQL, HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React, Next.JS, RESTful API, FastAPI, SQL, Alembic, Snowflake, AWS, Azure, Databricks, Streamlit, Pandas, Pytorch, Tensor Flow, R, JSON, Jinja, Confluence, Jira, Agile, GitHub, Microsoft Excel, Microsoft Word, Japanese</li>
-                       <li>Beginner – GitHub Actions, Bitbucket, Google Cloud Programming, Docker, Angular, Linux, Power BI</li>
+                       <li>Beginner – GitHub Actions, Bitbucket, Google Cloud Programming, Docker, Kubernetes, Angular, Linux, Power BI</li>
                     </ul>
                 </div>
             </div>
             <div className="2xl:basis-1/4"></div>
         </div>
-        
-
-
-
-        // <div className="flex justify-center my-8">
-        //     <iframe src="Arthur_Krieger_Resume.pdf" width="1000px" height="1000px"></iframe>
-        // </div>
     )
 }
