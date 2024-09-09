@@ -70,21 +70,25 @@ export default function Projects() {
 
             {/* Embedded YouTube Videos */}
             <div className="flex flex-col xl:flex-row items-center mx-10 mb-10">
-                <iframe 
-                    width="560" 
-                    height="315" 
-                    src="https://youtu.be/emxHI2ybPJ4" 
-                    title="KriegerDataForge POC" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/emxHI2ybPJ4?si=MjbDHFItsyvVzN-y"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
                     className="w-full h-64 lg:h-96 xl:h-[450px] 2xl:h-[550px] mb-8 xl:mr-5"
                 ></iframe>
-                <iframe 
-                    width="560" 
-                    height="315" 
-                    src="https://youtu.be/j3F10BulHSs" 
-                    title="Calorie Tracker Website POC" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/j3F10BulHSs?si=Dq08f0ymaPxngzs5"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
                     className="w-full h-64 lg:h-96 xl:h-[450px] 2xl:h-[550px] mb-8 xl:ml-5"
                 ></iframe>
